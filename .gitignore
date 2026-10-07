@@ -1,0 +1,10 @@
+@"
+*.bak
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+.vscode/
+review_content.txt
+"@ | Set-Content ".gitignore" -Encoding utf8
